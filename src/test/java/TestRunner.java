@@ -8,7 +8,7 @@ public class TestRunner
     @Test
     public void run()
     {
-        Results results = Runner.path("classpath:features").parallel(1);
+        Results results = Runner.path("classpath:features").tags("~@Ignore").parallel(1);
         Assertions.assertEquals(0, results.getFailCount());
     }
 }
