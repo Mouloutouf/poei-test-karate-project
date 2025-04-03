@@ -14,14 +14,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>AsposeJavaAPI</id>
-            <name>Aspose Java API</name>
-            <url>https://releases.aspose.com/java/repo/</url>
-        </repository>
-    </repositories>
-
     <dependencies>
         <!-- https://mvnrepository.com/artifact/com.intuit.karate/karate-apache -->
         <dependency>
@@ -35,20 +27,6 @@
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-junit4</artifactId>
             <version>0.9.6</version>
-        </dependency>
-
-        <!-- Rest Assured -->
-        <dependency>
-            <groupId>io.rest-assured</groupId>
-            <artifactId>rest-assured</artifactId>
-            <version>5.3.2</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/com.aspose/aspose-zip -->
-        <dependency>
-            <groupId>com.aspose</groupId>
-            <artifactId>aspose-zip</artifactId>
-            <version>25.2</version>
         </dependency>
     </dependencies>
 </project>
