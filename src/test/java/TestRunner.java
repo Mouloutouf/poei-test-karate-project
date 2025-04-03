@@ -1,7 +1,7 @@
 import com.intuit.karate.Results;
 import com.intuit.karate.Runner;
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class TestRunner
 {
@@ -9,6 +9,6 @@ public class TestRunner
     public void run()
     {
         Results results = Runner.path("classpath:features").parallel(1);
-        Assert.assertEquals(0, results.getFailCount());
+        Assertions.assertEquals(0, results.getFailCount());
     }
 }
